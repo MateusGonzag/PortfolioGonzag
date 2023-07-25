@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+@layer components {
+  .slide-indicator-container {
+    @apply absolute left-2/4 top-[4.3rem] z-50 flex -translate-x-2/4 -translate-y-2/4 flex-row items-center duration-500 md:left-60 lg:left-8 lg:top-2/4 lg:mt-3 lg:flex-col;
+  }
+  .slide-indicator-inactive {
+    @apply pointer-events-none z-10 ml-2 h-2 w-2 rotate-90 transform-gpu rounded-full bg-primary text-transparent text-opacity-0 lg:ml-0 lg:mt-2.5 lg:h-2.5 lg:w-2.5 lg:rotate-45 lg:rounded-none lg:border lg:border-textColorLIGHT lg:bg-transparent lg:dark:border-textColorDARK 2xl:border-2;
+  }
+  .slide-indicator-active {
+    @apply pointer-events-none mb-0.5 ml-2 transform-gpu rounded-full text-xs font-extrabold text-primary md:text-base lg:ml-0 lg:mt-2.5 lg:h-3 lg:w-3 lg:bg-primary lg:text-transparent;
+  }
+  html {
+    @apply text-smFontSize lg:text-lgFontSize;
+  }
+  body {
+    @apply bg-bgColorLIGHT dark:bg-bgColorDARK;
+  }
+
+  .swiper-slide-active > p {
+    @apply text-textColorLIGHT duration-700 ease-in-out dark:text-textColorDARK;
+  }
+
+  .swiper-slide-active > div {
+    @apply scale-125 duration-700 ease-in-out;
+  }
+
+  .slide-wrapper {
+    @apply bg-bgDefault bg-repeat bg-auto bg-center
+  }
+
+  .horizontal-slide-indicator.inactive {
+    @apply bg-bgColorDARK dark:bg-bgColorLIGHT;
+  }
+
+  .horizontal-slide-indicator.active {
+    @apply scale-125 bg-primary;
+  }
+
+  .horizontal-slide-indicator-container {
+    @apply bottom-0 lg:bottom-4;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:focus {
+    -webkit-text-fill-color: theme(colors.textColorLIGHT);
+    -webkit-box-shadow: 0 0 0px 1000px theme(colors.backMenuColorLIGHT) inset;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark input:-webkit-autofill,
+    .dark input:-webkit-autofill:focus,
+    .dark textarea:-webkit-autofill,
+    .dark textarea:-webkit-autofill:focus {
+      -webkit-text-fill-color: theme(colors.textColorDARK);
+      -webkit-box-shadow: 0 0 0px 1000px theme(colors.bgColorDARK) inset;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  scrollbar-width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

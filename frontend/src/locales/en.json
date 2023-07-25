@@ -1,0 +1,80 @@
+{
+  "links": ["Home", "About Me", "Skills", "Portfolio", "Contacts"],
+  "introduction": "Hello, all good? Welcome to my portfolio, would you like to have a coffee?",
+  "differences": {
+    "title": "Soft Skills",
+    "description": [
+      "Creativity! I enjoy thinking in an innovative way to achieve unique and different results.",
+      "Self-learning! I am self-taught and I'm always seeking to learn new things to adapt to any situation.",
+      "Problem-solving! I am skilled at identifying problems and finding efficient solutions, using methods that help to resolve things quickly and effectively."
+    ]
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "description": "Hey there! How are you? My name is Mateus Oliveira (or maybe Mateus Gonzaga or even Mateus José, I really need to decide which one to use, haha). I'm 20 years old and I'm a Front-End developer. I started venturing into the world of web development on my own around the end of 2022. Since I was a child, I've always been fascinated by computers and astronomy, always wondering: \"how do these machines think?\" Oh, and I can't forget to mention that I have two kittens and a crazy dog (well, at least she's not really crazy, hehe). They keep me company during my long hours of coding!",
+    "studies": [
+      "Started studying programming on my own",
+      "Started a Computer Science degree"
+    ]
+  },
+  "mySkills": {
+    "title": "Skills & Utilities",
+    "content": [
+      "I'm a developer",
+      " focused on creating amazing web experiences with",
+      " I can build custom layouts, add interactive features, and make your website or application visually stunning. I'm here to turn your ideas into reality and ensure that your online presence is remarkable.",
+      "Let's work together to create something extraordinary!"
+    ]
+  },
+  "trays": {
+    "title": ["Services", "Prototyping", "Websites"],
+    "content": [
+      "Development of low-fidelity prototypes for flow validation and user experience.",
+      "I create amazing websites that combine attractive design and intuitive functionality, providing an engaging browsing experience for users."
+    ]
+  },
+  "projects": [
+    [
+      "Access Project",
+      "View Repository",
+      "Portfolio",
+      "Experiences",
+      "In this section of the website, you will find a selection of my works and experiences. It's a sample of what I have done and learned so far. Feel free to explore and get to know me a little better. And to see more of my projects, visit my Github."
+    ],
+    {
+      "name": "First portfolio idea",
+      "description": "This was my first portfolio idea, it's basically a game where the idea was to walk through the map and see the sections of the site. Although it's quite creative, I thought it would be complicated for users to use. Not everyone has the time to walk around a game map. I learned a lot, really a lot, from this project, as I had to use a library with terrible documentation."
+    },
+    {
+      "name": "Piano simulator",
+      "description": "It was one of the tests from freeCodeCamp, but since I don't like doing simple things, I went beyond the piano and also created a drum set. The idea was to have a retro feel. It was my first contact with React and I learned a lot."
+    },
+    {
+      "name": "Markdown viewer",
+      "description": "It's basically a code viewer, where you write code on one side and the rendered output appears on the other side. It's like the GitHub Readme."
+    },
+    {
+      "name": "Quote generator",
+      "description": "My first encounter with an API, which in this case uses Axios to make a request to the quotes API."
+    }
+  ],
+  "emailFields": {
+    "title": "Send me an Email",
+    "name": "Name(*)",
+    "phone": "Phone",
+    "message": "Message(*)"
+  },
+  "emailPlaceholders": {
+    "name": "Enter here...",
+    "message": "Enter your message here..."
+  },
+  "emailButton": "Send",
+  "emailSending": "Sending...",
+  "modalMessages": {
+    "success": "Sent successfully! Thank you for your contact.",
+    "failure": "Sending failed! Please try again later.",
+    "nameError": "Please enter your name.",
+    "contactError": "Please enter a valid phone number or email.",
+    "messageError": "Please write a message."
+  }
+}

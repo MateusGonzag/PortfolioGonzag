@@ -1,0 +1,80 @@
+{
+  "links": ["Início", "Sobre Mim", "Conhecimentos", "Portfólio", "Contatos"],
+  "introduction": " Olá, tudo certo? Seja bem-vindo(a) ao meu portfólio, vamos tomar um café?",
+  "differences": {
+    "title": "Soft Skills",
+    "description": [
+      "Criatividade! Gosto de pensar de maneira inovadora para obter resultados únicos e diferentes.",
+      "Autoaprendizagem! Sou autodidata e estou sempre buscando aprender coisas novas para me adaptar a qualquer situação.",
+      "Resolução de problemas! Sou bom em identificar problemas e encontrar soluções eficientes, usando métodos que ajudam a resolver as coisas de forma rápida e eficaz."
+    ]
+  },
+  "aboutMe": {
+    "title": "Sobre Mim",
+    "description": "E aí! Tudo bem? Me chamo Mateus Oliveira (ou talvez Mateus Gonzaga ou até Mateus José, preciso realmente decidir qual colocar haha), tenho 20 anos e sou um desenvolvedor Front-End. Comecei a me aventurar no mundo do desenvolvimento web por conta própria lá pelo final de 2022. Desde criança, sempre fui fascinado por computadores e astronomia, sempre me perguntando: \"como é que essas máquinas pensam?\". Ah, e não posso esquecer de mencionar que tenho dois gatinhos e um cachorro maluco (bom, pelo menos ela não é maluca de verdade, hehe). São eles que me fazem companhia durante as minhas longas horas de código!",
+    "studies": [
+      "Comecei a estudar programação sozinho",
+      "Inicio da graduação em Ciência da Computação"
+    ]
+  },
+  "mySkills": {
+    "title": "Conhecimentos & Utils",
+    "content": [
+      "Sou desenvolvedor",
+      " focado em criar experiências web incríveis com",
+      " posso construir layouts personalizados, adicionar recursos interativos e deixar seu site ou aplicativo visualmente impressionante. Estou aqui para transformar suas ideias em realidade e garantir que sua presença online seja notável.",
+      "Vamos trabalhar juntos para criar algo extraordinário!"
+    ]
+  },
+  "trays": {
+    "title": ["Serviços", "Prototipagem", "Web Sites"],
+    "content": [
+      "Desenvolvimento de protótipos em baixa fidelidade para validação de fluxo e experiência do usuário.",
+      "Crio sites incríveis que combinam design atraente e funcionalidade intuitiva, proporcionando uma experiência de navegação envolvente para os usuários."
+    ]
+  },
+  "projects": [
+    [
+      "Acessar Projeto",
+      "Ver Repositório",
+      "Portfólio",
+      "Experiências",
+      "Nesta seção do site, você encontrará uma seleção dos meus trabalhos e experiências. É uma amostra do que fiz e aprendi até o momento. Sinta-se à vontade para explorar e conhecer um pouco mais sobre mim. E para ver mais sobre meus projetos, visite meu Github."
+    ],
+    {
+      "name": "Primeira ideia de portfólio",
+      "description": "Essa foi a minha primeira ideia de portfólio, é basicamente um jogo a ideia era andar pelo mapa e ir vendo as seções do site, por mais que seja bem criativo, achei que seria complicado para os usuários usarem, nem todo mundo tem tempo de ficar andando em um mapa de jogo. Aprendi muito, muito mesmo com esse projeto, tive que usar uma lib com uma documentação horrível."
+    },
+    {
+      "name": "Simulador de piano",
+      "description": "Era um dos testes do freeCodeCamp, mas como não gosto de fazer coisas simples fiz além do piano, também uma bateria, a ideia é que fosse meio retrô. Foi meu primeiro contato com React e aprendi muito."
+    },
+    {
+      "name": "Visualizador de markdown",
+      "description": "É basicamente um visualizador de código, tu escreve código de um lado e sai pronto do outro, é tipo o Readme do github."
+    },
+    {
+      "name": "Gerador de citações",
+      "description": "Meu primeiro contato com uma API, que no caso usa o Axios para fazer uma requisição a API de citações."
+    }
+  ],
+  "emailFields": {
+    "title": "Mande-me um E-mail",
+    "name": "Nome(*)",
+    "phone": "Telefone",
+    "message": "Mensagem(*)"
+  },
+  "emailPlaceholders": {
+    "name": "Digite aqui...",
+    "message": "Digite sua mensagem aqui..."
+  },
+  "emailButton": "Enviar",
+  "emailSending": "Enviando...",
+  "modalMessages": {
+    "success": "Enviado com sucesso! Obrigado pelo seu contato.",
+    "failure": "O envio falhou! Por favor, tente novamente mais tarde.",
+    "nameError": "Por favor, insira seu nome.",
+    "contactError": "Por favor, insira um número de celular ou e-mail válido.",
+    "messageError": "Por favor, escreva uma mensagem."
+  }
+}

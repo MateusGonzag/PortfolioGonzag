@@ -1,0 +1,71 @@
+/* Estilos gerais */
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Estilos do wrapper dos slides */
+.slide-wrapper {
+  position: absolute;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(var(--vh, 1vh) * 100);
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-horizontal-wrapper {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: calc(var(--vh, 1vh) * 100);
+  transform: translate3d(0, 0, 0);
+}
+
+/* Estilos dos slides individuais */
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Estilos dos botões horizontais dos slides */
+.horizontal-slide-buttons-container {
+  position: relative;
+  top: 44%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+.slide-horizontal-button {
+  border: none;
+  background-color: transparent;
+  margin: 0 15px;
+  font-size: 30px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Estilos dos indicadores horizontais dos slides */
+.horizontal-slide-indicator-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.horizontal-slide-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: none;
+  z-index: 1;
+}
+
+
